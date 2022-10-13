@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Assertions;
 public class FlowerTest {
     private Flower flower;
     private final static Random RANDOM_GENERATOR = new Random();
-    private final static int MAX_PRICE = 100;
+    private final static int MAX_PRICE = 1000;
 
     @BeforeEach
     public void init() {
