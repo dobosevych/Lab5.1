@@ -1,4 +1,4 @@
-package flower_store;
+package flower.store;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,6 +12,8 @@ public class Flower {
     private FlowerColor color;
     @Getter
     private double price;
+    @Getter
+    private FlowerType flowerType;
 
     public String getColor() {
         return color.toString();
