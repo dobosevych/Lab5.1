@@ -1,4 +1,4 @@
-package flower_store;
+package flowerStore;
 
 /**
  * FlowerPack is a group of flowers.
